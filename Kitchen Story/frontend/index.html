@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Kitchen Story</title>
+	<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header class="header">
+		<a href="#" class="logo"> Kitchen Story </a>
+		<nav class="navbar">
+			<a href="#">Home</a>
+			<a href="#shop">Shop</a>
+			<a href="#about">About</a>
+			<a href="#contact">Contact</a>
+		</nav>
+		<div class="icons">
+			<div id="menu-btn" class="fas fa-bars"></div>
+			<div id="search-btn" class="fas fa-search"></div>
+			<div id="cart-btn" class="fas fa-shopping-cart"></div>
+			<div id="login-btn" class="fas fa-user"></div>
+		</div>
+		<div class="hamburger" id="hamburger">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</div>
+	</header>
+
+
+	<section class="home" id="home">
+		<div class="slides-container">
+			<div class="slide active">
+				<div class="content">
+					<span>Order Food Online </span>
+					<h3>Up to 10% off</h3>
+					<a href="#" class="btn">Buy Now</a>
+				</div>
+				<div class="img">
+					<img decoding="async"
+						src=
+"https://media.istockphoto.com/id/1556119299/photo/empty-aisles-at-a-supermarket.jpg?b=1&s=612x612&w=0&k=20&c=XGe74BZEdNIj0RlP3Z_StXaT3_bGZx4XZfeOFHXviI8=" alt="">
+				</div>
+			</div>
+			<div class="slide">
+				<div class="content">
+					<span>Customize Ordering</span>
+					<h3>up to 10% off</h3>
+					<a href="#" class="btn">Buy Now</a>
+				</div>
+				<div class="img">
+					<img decoding="async"
+						src=
+"https://media.istockphoto.com/id/1556119299/photo/empty-aisles-at-a-supermarket.jpg?b=1&s=612x612&w=0&k=20&c=XGe74BZEdNIj0RlP3Z_StXaT3_bGZx4XZfeOFHXviI8=" alt="">
+				</div>
+			</div>
+
+			<div class="slide">
+				<div class="content">
+					<span>Fast Delivery</span>
+					<h3>up to 10% off</h3>
+					<a href="#" class="btn">Buy Now</a>
+				</div>
+				<div class="img">
+					<img decoding="async"
+						src=
+"https://media.istockphoto.com/id/1612169582/photo/shocked-brown-haired-woman-using-smartphone-for-buying-products-online-holding-fresh.jpg?s=612x612&w=0&k=20&c=B99QG592bfo3BPkEThBKMHhOYxsZs6lbaGn61Gr9-b0=">
+				</div>
+			</div>
+
+		</div>
+		<div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+		<div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+	</section>
+
+	<section class="banner-container">
+
+		<div class="banner">
+			<img decoding="async"
+				src=
+"https://media.istockphoto.com/id/1326617698/photo/healthy-balanced-vegetarian-diet-vegetables-fruits-cereals-containing-protein-top-view.jpg?b=1&s=612x612&w=0&k=20&c=tIhOOVfRUoIkQez-3taRGNr6m9c9ZsQyME7WNKapnko=" alt="">
+			<div class="content">
+				<span>Vegetables</span>
+				<h3>up to 5% off</h3>
+				<a href="#" class="btn">Buy now</a>
+			</div>
+		</div>
+
+		<div class="banner">
+			<img decoding="async"
+				src=
+"https://media.istockphoto.com/id/1718516554/photo/full-frame-of-assortment-of-healthy-and-fresh-fruits.jpg?b=1&s=612x612&w=0&k=20&c=ftWQUQZKGmAqpHtRq70VUg7gu4OiMSKxYzk-lkADOH4=" alt="">
+			<div class="content">
+				<span>Fruits</span>
+				<h3>up to 6% off</h3>
+				<a href="#" class="btn">Buy now</a>
+			</div>
+		</div>
+
+		<div class="banner">
+			<img decoding="async"
+				src=
+"https://media.istockphoto.com/id/873169784/photo/cake-display.jpg?s=612x612&w=0&k=20&c=BhbCrlto5V3Y8Qyk3Tx5PbRqQn1khNI4P9arDSHo0nA=" alt="">
+			<div class="content">
+				<span>Cakes</span>
+				<h3>up to 5% off</h3>
+				<a href="#" class="btn">Buy now</a>
+			</div>
+		</div>
+
+	</section>
+
+
+	<div class="heading">
+		<h1>Kitchen Story</h1>
+	</div>
+
+	<section class="category">
+
+		<h1 class="title"> All <span>categories</span> <a href="#">view all >></a> </h1>
+
+		<div class="box-container">
+
+			<a href="#" class="box">
+				<img decoding="async"
+					src=
+"https://media.istockphoto.com/id/173255460/photo/assortment-of-fruits.jpg?b=1&s=612x612&w=0&k=20&c=pgFPSggINXBeP1rkAe5se2T8E8H3r-As9D4eCRECK3I=" alt="">
+				<h3>Fresh fruit</h3>
+			</a>
+
+			<a href="#" class="box">
+				<img decoding="async"
+					src=
+"https://media.istockphoto.com/id/139496979/photo/assortment-of-fruits-and-vegetables-background.jpg?b=1&s=612x612&w=0&k=20&c=U_wF_rur9Qd2zjLoUPYTfiufKXSeJk8rRsitWUvggu8=" alt="">
+				<h3>Fresh vegetables</h3>
+			</a>
+
+			<a href="#" class="box">
+				<img decoding="async"
+					src=
+"https://media.istockphoto.com/id/171366863/photo/refrigerated-foods.jpg?b=1&s=612x612&w=0&k=20&c=UcB1FujGKoFsvM0so41bXLxAlV8ssN9gYCgvQJGn3Lg=" alt="">
+				<h3>Drinks</h3>
+			</a>
+
+			<a href="#" class="box">
+				<img decoding="async"
+					src=
+"https://media.istockphoto.com/id/1431393683/photo/food-in-fridge-in-a-supermarket.jpg?s=612x612&w=0&k=20&c=Etqobt0nENI2cLS0-0-6VrLwTsL0hR9belrTcPu_1K4=" alt="">
+				<h3>Frozen food</h3>
+			</a>
+
+			<a href="#" class="box">
+				<img decoding="async"
+					src=
+"https://media.istockphoto.com/id/1455252270/photo/close-up-view-of-washing-machines-on-conveyor-belt-in-warehouse.jpg?b=1&s=612x612&w=0&k=20&c=dF_aL_SCnsdevYRGs7wFZvsjHJDvRT-oc5K1lyYxL0U=" alt="">
+				<h3>Household</h3>
+			</a>
+		</div>
+	</section>
+
+
+	<section class="products" id="shop">
+
+		<h1 class="title"> our <span>Specials</span> <a href="#">view all >></a> </h1>
+
+		<div class="box-container">
+
+			<div class="box">
+				<div class="icons">
+					<a href="#" class="fas fa-shopping-cart"></a>
+					<a href="#" class="fas fa-heart"></a>
+					<a href="#" class="fas fa-eye"></a>
+				</div>
+				<div class="img">
+					<img decoding="async"
+						src=
+"https://media.istockphoto.com/id/184597781/photo/fruit-cake-at-christmas.jpg?b=1&s=612x612&w=0&k=20&c=kc7cnQNQbm3RIJrkYbZdAukjHU20spU0D62lYwNbFAI=" alt="">
+				</div>
+				<div class="content">
+					<h3>fruit cakes</h3>
+					<div class="price">R150.00</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="icons">
+					<a href="#" class="fas fa-shopping-cart"></a>
+					<a href="#" class="fas fa-heart"></a>
+					<a href="#" class="fas fa-eye"></a>
+				</div>
+				<div class="img">
+					<img decoding="async"
+						src=
+"https://media.istockphoto.com/id/180820338/photo/fresh-homemade-donuts-with-various-toppings.jpg?b=1&s=612x612&w=0&k=20&c=c93gf3jqxfEJ7CjzjX9kvsYqiTOZQzS5IXEjEImzqb4=" alt="">
+				</div>
+				<div class="content">
+					<h3>Doughnut</h3>
+					<div class="price">R14.00</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="icons">
+					<a href="#" class="fas fa-shopping-cart"></a>
+					<a href="#" class="fas fa-heart"></a>
+					<a href="#" class="fas fa-eye"></a>
+				</div>
+				<div class="img">
+					<img decoding="async"
+						src=
+"https://media.istockphoto.com/id/517416636/photo/milk-carton-with-custom-design.jpg?s=612x612&w=0&k=20&c=EoVARTiF1qDuPBPdDYPPlb0N8goW5RSBXcNV-eGR-7U=" alt="">
+				</div>
+				<div class="content">
+					<h3>Milk</h3>
+					<div class="price">R12.00</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="icons">
+					<a href="#" class="fas fa-shopping-cart"></a>
+					<a href="#" class="fas fa-heart"></a>
+					<a href="#" class="fas fa-eye"></a>
+				</div>
+				<div class="img">
+					<img decoding="async"
+						src=
+"https://www.checkers.co.za/medias/10126901EA-checkers300Wx300H.webp?context=bWFzdGVyfGltYWdlc3w4MTk4fGltYWdlL3dlYnB8aW1hZ2VzL2g4MC9oM2UvMTA5NzEzOTMzNTk5MDIud2VicHw3ZTgwYzBjMjQzMzgzYzM4MjJkZjkwNjA4ZjY0MjNkNmQ3NDJjZWYyNmIzNWQ2MzVkYmI5YWY3MDIxYjU4NmI0" alt="">
+				</div>
+				<div class="content">
+					<h3>Dishwashing liquid</h3>
+					<div class="price">R35.00</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="icons">
+					<a href="#" class="fas fa-shopping-cart"></a>
+					<a href="#" class="fas fa-heart"></a>
+					<a href="#" class="fas fa-eye"></a>
+				</div>
+				<div class="img">
+					<img decoding="async"
+						src=
+"https://www.checkers.co.za/medias/10135815EA-checkers300Wx300H.webp?context=bWFzdGVyfGltYWdlc3wxNzY2NHxpbWFnZS93ZWJwfGltYWdlcy9oZGYvaGQzLzkwNjEzNzgwMzE2NDYud2VicHxiMjZiMjgzNTE2Yzk1NTZmNGJlNmE2ZGMwNzljZDNlZmUxOTdmZmQxZGU0MjNiZWM0MmMyYzMwMDFhNzdhYWM1" alt="">
+				</div>
+				<div class="content">
+					<h3>Eggs</h3>
+					<div class="price">R80.00</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="icons">
+					<a href="#" class="fas fa-shopping-cart"></a>
+					<a href="#" class="fas fa-heart"></a>
+					<a href="#" class="fas fa-eye"></a>
+				</div>
+				<div class="img">
+					<img decoding="async"
+						src=
+"https://www.checkers.co.za/medias/10125341EA-checkers300Wx300H.webp?context=bWFzdGVyfGltYWdlc3wxMzQxNnxpbWFnZS93ZWJwfGltYWdlcy9oMTAvaDVhLzEwMjY5NjAxMjAyMjA2LndlYnB8ZmQxNzg0Zjc1MTAyNzJkMGJlY2I5M2I5ZmUwNDIwZjM4MThjZTI3ZGIzZGIwZjI1MjUzMjUyY2I3NWQ2NjA0MQ" alt="">
+				</div>
+				<div class="content">
+					<h3>Macaroni</h3>
+					<div class="price">R20.00</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="icons">
+					<a href="#" class="fas fa-shopping-cart"></a>
+					<a href="#" class="fas fa-heart"></a>
+					<a href="#" class="fas fa-eye"></a>
+				</div>
+				<div class="img">
+					<img decoding="async"
+						src=
+"https://www.checkers.co.za/medias/10141796EAV2-checkers300Wx300H.webp?context=bWFzdGVyfGltYWdlc3wxMTAxMHxpbWFnZS93ZWJwfGltYWdlcy9oYTMvaGVlLzkyMTY1NjUzNDYzMzQud2VicHxlZDVlYzM0MmJiN2MwZmJlODY3MTlmNTA1NzI4MTRjOGEzNGVmYjcwNGJiMWVmNDMyZDYwODgyNjNkY2IyZTNj" alt="">
+				</div>
+				<div class="content">
+					<h3>Sugar</h3>
+					<div class="price">R55.00</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="icons">
+					<a href="#" class="fas fa-shopping-cart"></a>
+					<a href="#" class="fas fa-heart"></a>
+					<a href="#" class="fas fa-eye"></a>
+				</div>
+				<div class="img">
+					<img decoding="async"
+						src=
+"https://www.checkers.co.za/medias/10604376EA-checkers300Wx300H.webp?context=bWFzdGVyfGltYWdlc3w4Njg4fGltYWdlL3dlYnB8aW1hZ2VzL2g2ZS9oZjQvMTA3Nzg1MTg0ODcwNzAud2VicHw2ZGIwYjUzNTFhMzFhMjNmOGFkNzcwYWNlNzY3MWQ5ZDQ1YmM4YzA0ODZjZjgyODg3ZDBjM2EwZGNiZTNlMTE5" alt="">
+				</div>
+				<div class="content">
+					<h3>Canola Oil</h3>
+					<div class="price">R90.00</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<div class="heading">
+		<h1>About us</h1>
+	</div>
+
+	<section class="about" id="about">
+		<div class="img">
+			<img decoding="async"
+				src=
+"https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?b=1&s=612x612&w=0&k=20&c=Mn_EPBAGwtzh5K6VyfDmd7Q5eJFXSHhGWVr3T4WDQRo=" alt="">
+		</div>
+
+		<div class=" content">
+			<h3>Kitchen Story</h3>
+			<p>Welcome to Kitchen Story, your go-to e-commerce portal for all your basic food items! Our mission is to simplify your grocery shopping experience by offering a seamless, user-friendly platform where you can find everything you need in one place.</p>
+			<a href="#" class="btn">Read more</a>
+		</div>
+	</section>
+
+
+	<div class="heading">
+		<h1>Contact us</h1>
+	</div>
+
+	<section class="contact" id="contact">
+		<div class="icons-container">
+
+			<div class="icons">
+				<i class="fas fa-phone"></i>
+				<h3>Contact number</h3>
+				<p>+27 79 544 8888</p>
+				<p>+xx xxxx xxx xxx</p>
+			</div>
+
+			<div class="icons">
+				<i class="fas fa-envelope"></i>
+				<h3>email</h3>
+				<p>info@kitchenstory.com</p>
+				<p>lerato@kitcehstory.com</p>
+			</div>
+
+			<div class="icons">
+				<i class="fas fa-map-marker-alt"></i>
+				<h3>address</h3>
+				<p>1632 Vorna Valley
+          Midrand, Gauteng</p>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<form action="">
+				<h3>get in touch</h3>
+				<div class="inputBox">
+					<input type="text"
+						placeholder="enter your name" class="box">
+					<input type="text"
+						placeholder="enter your email" class="box">
+				</div>
+				<div class="inputBox">
+					<input type="number"
+						placeholder="enter your number" class="box">
+					<input type="text"
+						placeholder="enter your subject" class="box">
+				</div>
+				<textarea placeholder=" your message" cols="30"
+						rows="10"></textarea>
+				<input type="submit" v
+					alue="send message" class="btn">
+			</form>
+		</div>
+
+	</section>
+
+	<div class="space"></div>
+
+	<section class="footer">
+		<div class="box-container">
+			<div class="box">
+				<h3>quick links</h3>
+				<a href="#"> <i class="fas 
+				fa-arrow-right"></i> Home</a>
+				<a href="#"> <i class="fas
+				fa-arrow-right"></i>Shop</a>
+				<a href="#"> <i class="fas
+				fa-arrow-right"></i>About</a>
+				<a href="#"> <i class="fas
+				fa-arrow-right"></i> Review</a>
+				<a href="#"> <i class="fas 
+				fa-arrow-right"></i>Blog</a>
+				<a href="#"> <i class="fas
+				fa-arrow-right"></i>Contact</a>
+			</div>
+
+			<div class="box">
+				<h3>follow us</h3>
+				<a href="#"> <i class="fab 
+				fa-facebook-f"></i> facebook </a>
+				<a href="#"> <i class="fab
+				fa-twitter"></i> twitter </a>
+				<a href="#"> <i class="fab 
+				fa-instagram"></i> instagram </a>
+				<a href="#"> <i class="fab
+				fa-linkedin"></i> linkedin </a>
+				<a href="#"> <i class="fab 
+				fa-pinterest"></i> pinterest </a>
+			</div>
+
+			<div class="box">
+				<h3>newsletter</h3>
+				<p>Don't miss any Offer</p>
+				<form action="">
+					<input type="email" placeholder="your e-mail">
+					<input type="submit" value="subscribe" class="btn">
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<section class="credit">created by <span>@Lerato Mofokeng</span></section>
+
+	<script src="script.js" defer data-deferred="1"></script>
+</body>
+
+</html>

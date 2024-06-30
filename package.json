@@ -1,0 +1,13 @@
+{
+  "name": "kitchenstory",
+  "version": "1.0.0",
+  "description": "Kitchen Story admin backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  }
+}
